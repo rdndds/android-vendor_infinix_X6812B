@@ -325,7 +325,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6812B/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-mediatek.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc \
@@ -588,7 +587,6 @@ PRODUCT_PACKAGES += \
     libverno \
     libwo \
     libwpa_client \
-    libwvhidl \
     ov02b1b_mipi_raw_tuning \
     pblcgc02m1b_mipi_raw_tuning \
     pblcgc08a3_mipi_raw_tuning \
@@ -942,7 +940,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.wifi@1.0-service.xml \
-    manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.mediatek.hardware.gpu@1.0-service.xml \
     atcid \
     audiocmdservice_atci \
@@ -958,7 +955,6 @@ PRODUCT_PACKAGES += \
     gsm0710muxd \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.bluetooth@1.0-service-mediatek \
-    android.hardware.drm@1.3-service.widevine \
     android.hardware.gnss@2.1-service-mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.keymaster@4.0-service.trustonic \
