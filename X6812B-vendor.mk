@@ -595,6 +595,7 @@ PRODUCT_PACKAGES += \
     libcharon-ss \
     libforkexecwrap \
     libhydra \
+    libifcutils_mtk \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
