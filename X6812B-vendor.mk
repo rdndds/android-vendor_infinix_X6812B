@@ -573,6 +573,8 @@ PRODUCT_PACKAGES += \
     libpowerhalwrap_vendor \
     libpq_cust_base \
     libpq_prot \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     libsl_fp_impl \
     libspeech_enh_lib \
     libspeechparser_vendor \
