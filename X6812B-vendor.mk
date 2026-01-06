@@ -293,23 +293,14 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/init.udc_lib.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.udc_lib.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.volte_imcb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imcb.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.volte_imsm_93.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imsm_93.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.volte_md_status.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_md_status.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.volte_stack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_stack.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.volte_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_ua.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.wfca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wfca.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/init.wod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wod.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
@@ -420,7 +411,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkcodecservice@1.1-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.6-impl \
-    vendor.mediatek.hardware.videotelephony@1.0-impl \
     libDefaultFpsActor \
     libFrameRecord \
     libJpgEncPipe \
@@ -482,22 +472,17 @@ PRODUCT_PACKAGES += \
     libhwm \
     libion_mtk \
     libion_ulit \
-    libipsec_ims_shr \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
     libladder \
     libminiui \
-    libmnetlink_v104 \
     libmsbc_mtk \
-    libmtcloader \
     libmtkares \
     libmtkcutils \
     libmtkhardware_legacy \
-    libmtklimiter_vendor \
     libmtknetutils \
     libmtkproperty \
     libmtkrillog \
-    libmtkshifter_vendor \
     libmtksysutils \
     libnvram \
     libnvram_daemon_callback \
@@ -519,8 +504,6 @@ PRODUCT_PACKAGES += \
     libutinterface_custom_md \
     libutinterface_md \
     libvcodec_oal \
-    libverno \
-    libwo \
     libwpa_client \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
@@ -546,7 +529,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.4 \
     vendor.mediatek.hardware.pq@2.5 \
     vendor.mediatek.hardware.pq@2.6 \
-    vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.silead.hardware.fingerprintext@1.0-adapter-helper \
     vendor.silead.hardware.fingerprintext@1.0 \
     kmsetkey.default \
@@ -574,13 +556,10 @@ PRODUCT_PACKAGES += \
     libvc1dec_sa.ca7 \
     libvcodec_utility \
     libvcodecdrv \
-    libvolte_core_shr \
-    libvolte_xdmc_shr \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
     libvpud_vcodec \
-    libvt_custom \
     android.hardware.gnss@2.1-impl-mediatek \
     fingerprint.mt6768 \
     gatekeeper.default \
@@ -608,7 +587,6 @@ PRODUCT_PACKAGES += \
     libmtkconfig \
     libmtkconfigutils \
     libmtkrilutils \
-    libmtktinyxml \
     libmtkutils \
     libratconfig \
     librilfusion \
@@ -637,14 +615,6 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.wifi@1.0-service.xml \
     vendor.mediatek.hardware.gpu@1.0-service.xml \
@@ -656,7 +626,6 @@ PRODUCT_PACKAGES += \
     ccci_mdinit \
     ccci_rpcd \
     charon \
-    epdg_wod \
     fuelgauged \
     fuelgauged_nvram \
     gsm0710muxd \
@@ -679,14 +648,12 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.trustonic.tee@1.1-service \
-    vtservice_hidl \
     ipsec_mon \
     lbs_hidl_service \
     md_monitor \
     md_monitor_ctrl \
     mnld \
     mtk_agpsd \
-    muxreport \
     netdagent \
     netdc \
     nvram_daemon \
@@ -696,13 +663,7 @@ PRODUCT_PACKAGES += \
     thermal_manager \
     thermalloadalgod \
     trustonic_kmsetkey_ca \
-    volte_imcb \
-    volte_imsm_93 \
-    volte_md_status \
-    volte_stack \
-    volte_ua \
     vpud \
-    wfca \
     wlan_assistant \
     wmt_launcher \
     wmt_loader

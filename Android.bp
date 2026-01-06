@@ -1365,56 +1365,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.videotelephony@1.0-impl",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libfmq",
-                "vendor.mediatek.hardware.videotelephony@1.0_vendor",
-                "libc",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libbase",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libfmq",
-                "vendor.mediatek.hardware.videotelephony@1.0_vendor",
-                "libc",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libbase",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libDefaultFpsActor",
     owner: "infinix",
     strip: {
@@ -4103,47 +4053,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libipsec_ims_shr",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libipsec_ims_shr.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libcrypto",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libipsec_ims_shr.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libcrypto",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libjpeg-alpha-oal_vendor",
     owner: "infinix",
     strip: {
@@ -4304,41 +4213,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmnetlink_v104",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmnetlink_v104.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmnetlink_v104.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmsbc_mtk",
     owner: "infinix",
     strip: {
@@ -4372,45 +4246,6 @@ cc_prebuilt_library_shared {
                 "libm",
                 "libc++",
                 "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtcloader",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmtcloader.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtcloader.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
                 "libdl",
             ],
         },
@@ -4532,49 +4367,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmtklimiter_vendor",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmtklimiter_vendor.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtk_drvb",
-                "libutils",
-                "libm",
-                "libc++",
-                "libc",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtklimiter_vendor.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtk_drvb",
-                "libutils",
-                "libm",
-                "libc++",
-                "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmtknetutils",
     owner: "infinix",
     strip: {
@@ -4678,49 +4470,6 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtkshifter_vendor",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmtkshifter_vendor.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtk_drvb",
-                "libutils",
-                "libm",
-                "libc++",
-                "libc",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtkshifter_vendor.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtk_drvb",
-                "libutils",
-                "libm",
-                "libc++",
-                "libc",
                 "libdl",
             ],
         },
@@ -5588,76 +5337,6 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libdl",
                 "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libverno",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libverno.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libverno.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libwo",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libwo.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libwo.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc",
-                "libdl",
                 "libm",
             ],
         },
@@ -6814,50 +6493,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.videotelephony@1.0_vendor",
-    stem: "vendor.mediatek.hardware.videotelephony@1.0",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.silead.hardware.fingerprintext@1.0-adapter-helper",
     owner: "infinix",
     strip: {
@@ -7673,59 +7308,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvolte_core_shr",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvolte_core_shr.so",
-            ],
-            shared_libs: [
-                "libvolte_xdmc_shr",
-                "libverno",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvolte_xdmc_shr",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvolte_xdmc_shr.so",
-            ],
-            shared_libs: [
-                "libverno",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libvp8dec_sa.ca7",
     owner: "infinix",
     strip: {
@@ -7822,30 +7404,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libion",
                 "libion_mtk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvt_custom",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvt_custom.so",
-            ],
-            shared_libs: [
                 "libc++",
                 "libc",
                 "libm",
@@ -8717,30 +8275,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmtktinyxml",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtktinyxml.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmtkutils",
     owner: "infinix",
     strip: {
@@ -9566,70 +9100,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-dex_import {
-    name: "mediatek-common",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-common.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-framework",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-framework.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-ims-base",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-ims-base.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-ims-common",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-ims-common.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-ims-extension-plugin",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-ims-extension-plugin.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-telecom-common",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-telecom-common.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-telephony-base",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-telephony-base.jar",
-    ],
-}
-
-dex_import {
-    name: "mediatek-telephony-common",
-    owner: "infinix",
-    jars: [
-        "proprietary/system/framework/mediatek-telephony-common.jar",
-    ],
-}
-
 prebuilt_etc_xml {
     name: "android.hardware.biometrics.fingerprint@2.1-service.xml",
     owner: "infinix",
@@ -9874,31 +9344,6 @@ cc_prebuilt_binary {
                 "libhydra",
                 "libcharon-ss",
                 "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "epdg_wod",
-    owner: "infinix",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/epdg_wod",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libwo",
-                "libc",
-                "libdl",
                 "libm",
             ],
         },
@@ -10638,41 +10083,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vtservice_hidl",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vtservice_hidl",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libbase",
-                "libfmq",
-                "vendor.mediatek.hardware.videotelephony@1.0_vendor",
-                "libhardware",
-                "libhwbinder",
-                "libhidlbase",
-                "libhidltransport",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "ipsec_mon",
     owner: "infinix",
     target: {
@@ -10861,32 +10271,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "muxreport",
-    owner: "infinix",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/muxreport",
-            ],
-            shared_libs: [
-                "libmtkrillog",
-                "libmtkproperty",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
     strip: {
         none: true,
     },
@@ -11141,143 +10525,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "volte_imcb",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/volte_imcb",
-            ],
-            shared_libs: [
-                "libvolte_core_shr",
-                "libvolte_xdmc_shr",
-                "libverno",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "volte_imsm_93",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/volte_imsm_93",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libverno",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "volte_md_status",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/volte_md_status",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libverno",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "volte_stack",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/volte_stack",
-            ],
-            shared_libs: [
-                "libvolte_core_shr",
-                "libvolte_xdmc_shr",
-                "libipsec_ims_shr",
-                "libverno",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "volte_ua",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/volte_ua",
-            ],
-            shared_libs: [
-                "libvolte_core_shr",
-                "libvolte_xdmc_shr",
-                "libverno",
-                "libcutils",
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "vpud",
     owner: "infinix",
     target: {
@@ -11296,30 +10543,6 @@ cc_prebuilt_binary {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "wfca",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/wfca",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc",
-                "libdl",
-                "libm",
             ],
         },
     },
