@@ -504,6 +504,7 @@ PRODUCT_PACKAGES += \
     libutinterface_custom_md \
     libutinterface_md \
     libvcodec_oal \
+    libverno \
     libwpa_client \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
