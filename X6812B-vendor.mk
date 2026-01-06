@@ -570,6 +570,7 @@ PRODUCT_PACKAGES += \
     libnvram_platform \
     libnvram_sec \
     libpixelflinger \
+    libpowerhalwrap_vendor \
     libpq_cust_base \
     libpq_prot \
     libsl_fp_impl \
