@@ -36,63 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6812B/proprietary/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin \
     vendor/infinix/X6812B/proprietary/vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin \
     vendor/infinix/X6812B/proprietary/vendor/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/M_Segment_DoubleLoss_V1.model:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/M_Segment_DoubleLoss_V1.model \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/Transsion_Segment_Pre.mnn:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/Transsion_Segment_Pre.mnn \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/eyes_detect_model:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/eyes_detect_model \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/facerecheck.bin:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/facerecheck.bin \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/facerecheck.param:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/facerecheck.param \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/lightforgender_addindian_tf113_test5.tflite:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/lightforgender_addindian_tf113_test5.tflite \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/lightforgender_addindian_tf113_test5_converted.mnn:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/lightforgender_addindian_tf113_test5_converted.mnn \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/lightforgenderandage_tf113_test4.tflite:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/lightforgenderandage_tf113_test4.tflite \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/lightforgenderandage_tf113_test4_converted.mnn:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/lightforgenderandage_tf113_test4_converted.mnn \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/cache_data:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/cache_data \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/capture_cache:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/capture_cache \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/capture_model:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/capture_model \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/capture_policy:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/capture_policy \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/dof_mecp.bin:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/dof_mecp.bin \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/for_mt6768_mt6785:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/for_mt6768_mt6785 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/preview_cache:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/preview_cache \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/megii_dualcam/preview_model:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/megii_dualcam/preview_model \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/portrait_repair_composite_hardcode_lite_3.4.20.model:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/portrait_repair_composite_hardcode_lite_3.4.20.model \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/scene.tflite:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/scene.tflite \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/segment.tflite:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/segment.tflite \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/segmentPre.tflite:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/segmentPre.tflite \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/model/sr_params.xml:$(TARGET_COPY_OUT_VENDOR)/data/camera/model/sr_params.xml \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/tran_fd/detector/rf_newsshratio4_newresult_opt.bin:$(TARGET_COPY_OUT_VENDOR)/data/camera/tran_fd/detector/rf_newsshratio4_newresult_opt.bin \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/tran_fd/detector/rf_newsshratio4_newresult_opt.param:$(TARGET_COPY_OUT_VENDOR)/data/camera/tran_fd/detector/rf_newsshratio4_newresult_opt.param \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/tran_fd/tracker/det2.bin:$(TARGET_COPY_OUT_VENDOR)/data/camera/tran_fd/tracker/det2.bin \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/tran_fd/tracker/det2.param:$(TARGET_COPY_OUT_VENDOR)/data/camera/tran_fd/tracker/det2.param \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_1280x720.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_1280x720.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_1280x720.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_1280x720.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_1920x1080.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_1920x1080.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_1920x1080.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_1920x1080.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2432x2432.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2432x2432.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2432x2432.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2432x2432.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2560x1440.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2560x1440.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2560x1440.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2560x1440.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2624x1152.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2624x1152.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2624x1152.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2624x1152.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2944x2944.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2944x2944.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_2944x2944.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2944x2944.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3264x2448.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3264x2448.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3264x2448.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3264x2448.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3840x2160.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3840x2160.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3840x2160.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3840x2160.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3936x1728.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3936x1728.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3936x1728.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3936x1728.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3968x2976.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3968x2976.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_3968x2976.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_3968x2976.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_4080x3060.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_4080x3060.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_4080x3060.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_4080x3060.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_5952x5952.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_5952x5952.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_5952x5952.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_5952x5952.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_640x480.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_640x480.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_640x480.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_640x480.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_7872x3456.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_7872x3456.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_7872x3456.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_7872x3456.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_8160x6120.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_8160x6120.nv21 \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_8160x6120.yuyv:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_8160x6120.yuyv \
-    vendor/infinix/X6812B/proprietary/vendor/data/camera/watermark/watermark_config:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_config \
     vendor/infinix/X6812B/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
     vendor/infinix/X6812B/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_00 \
     vendor/infinix/X6812B/proprietary/vendor/etc/.tp/.thermal_policy_03:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_03 \
@@ -297,7 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6812B/proprietary/vendor/etc/audio_param_ce/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Volume_ParamUnitDesc.xml \
     vendor/infinix/X6812B/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/infinix/X6812B/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
-    vendor/infinix/X6812B/proprietary/vendor/etc/camera/model/bokeh_model/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/bokeh_model/cache_data \
     vendor/infinix/X6812B/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/infinix/X6812B/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/infinix/X6812B/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -336,7 +278,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -459,10 +400,6 @@ PRODUCT_PACKAGES += \
     libGLES_meow \
     libMEOW_gift \
     libMEOW_trace \
-    gc02m1b_mipi_raw_tuning \
-    gc08a3_mipi_raw_tuning \
-    gc6153_serial_yuv_tuning \
-    gc8034_mipi_raw_tuning \
     android.hardware.bluetooth@1.0-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
@@ -523,7 +460,6 @@ PRODUCT_PACKAGES += \
     libbluetoothem_mtk \
     libbt-vendor \
     libbwc \
-    libcam.halsensor.hwintegration \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
@@ -554,7 +490,6 @@ PRODUCT_PACKAGES += \
     libmnetlink_v104 \
     libmsbc_mtk \
     libmtcloader \
-    libmtk_drvb \
     libmtkares \
     libmtkcutils \
     libmtkhardware_legacy \
@@ -587,20 +522,8 @@ PRODUCT_PACKAGES += \
     libverno \
     libwo \
     libwpa_client \
-    ov02b1b_mipi_raw_tuning \
-    pblcgc02m1b_mipi_raw_tuning \
-    pblcgc08a3_mipi_raw_tuning \
-    pblcgc6153_serial_yuv_tuning \
-    pblcgc8034_mipi_raw_tuning \
-    pblcov02b1b_mipi_raw_tuning \
-    pblcs5kjn1_mipi_raw_tuning \
-    pblcs5kjn1ext2_mipi_raw_tuning \
-    s5kjn1_mipi_raw_tuning \
-    s5kjn1ext2_mipi_raw_tuning \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.camera.bgservice@1.0 \
-    vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.dfps@1.0 \
     vendor.mediatek.hardware.gpu@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
@@ -626,7 +549,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.silead.hardware.fingerprintext@1.0-adapter-helper \
     vendor.silead.hardware.fingerprintext@1.0 \
-    vendor.transsion.hardware.trancam.trancamserver@1.0 \
     kmsetkey.default \
     kmsetkey.trustonic \
     libDR \
@@ -659,11 +581,6 @@ PRODUCT_PACKAGES += \
     libvp9dec_sa.ca7 \
     libvpud_vcodec \
     libvt_custom \
-    gc02m1b_mipi_raw_IdxMgr \
-    gc08a3_mipi_raw_IdxMgr \
-    gc6153_serial_yuv_IdxMgr \
-    gc8034_mipi_raw_IdxMgr \
-    android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     fingerprint.mt6768 \
     gatekeeper.default \
@@ -671,127 +588,13 @@ PRODUCT_PACKAGES += \
     gatekeeper.x6812_h6912 \
     hwcomposer.mt6768 \
     sensors.mt6768 \
-    vendor.mediatek.hardware.camera.isphal@1.0-impl \
-    vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     lbs_hidl_service-impl \
-    lib3a.ae.core \
-    lib3a.ae \
-    lib3a.af.core \
-    lib3a.af \
-    lib3a.awb.core \
-    lib3a.awb \
-    lib3a.ccudrv \
-    lib3a.ccuif \
-    lib3a.flash \
-    lib3a.gma \
-    lib3a.lce \
-    lib3a.log \
-    lib3a.n3d3a \
-    libImageEval \
-    libMtkSImage \
-    libSonyIMX230PdafLibrary \
-    libSonyIMX230PdafLibraryWrapper \
-    libSonyIMX338PdafLibrary \
-    libSonyIMX338PdafLibraryWrapper \
-    libSonyIMX386PdafLibrary \
-    libSonyIMX386PdafLibraryWrapper \
-    libSonyIMX519PdafLibrary \
-    libSonyIMX519PdafLibraryWrapper \
-    libTranASD \
-    libTranArcDro \
-    libTranArcFilter \
-    libTranArcHDR \
-    libTranArcLowLight \
-    libTranArcNightHawk \
-    libTranArcPicselfie \
-    libTranDenoise \
-    libTranExtImgProc \
-    libTranEyeDetect \
-    libTranFaceBeauty \
-    libTranFaceDetect \
-    libTranFaceDetectCoordinate \
-    libTranHumanLight \
-    libTranMegDualRefocus \
-    libTranPlatHW \
-    libTranSTPRRepair \
-    libTranSTSingleBlur \
-    libTranSlimBody \
-    libTranStSuperResolution \
-    libTranUndistort \
-    libTran_Log \
-    libTran_mtkPowerAPI \
-    libWaterMarkProc \
     lib_bsscore \
-    lib_sr_indep_ocl \
-    libabfadp \
     libacdk \
-    libamipengine \
     libanc_dc_base \
-    libarcsoft_beautyshot \
-    libarcsoft_dro \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_shot \
-    libarcsoft_night_hawk \
-    libarcsoft_picselfie_algorithm \
-    libc++_shared \
-    libcalculatesharpness \
-    libcam.feature_utils \
-    libcam.hal3a.cctsvr \
-    libcam.hal3a.log \
-    libcam.hal3a.v3.dng \
-    libcam.hal3a.v3.lsctbl \
-    libcam.hal3a.v3.nvram \
-    libcam.hal3a.v3 \
-    libcam.halisp \
-    libcam.halsensor \
-    libcam.iopipe \
-    libcam.lcs \
-    libcam.pdtblgen \
-    libcam.utils.sensorprovider \
-    libcam.vhdr \
-    libcam3_tranpriorityctrl \
-    libcam3_transerverengine \
-    libcamalgo.3dnr \
-    libcamalgo.abf \
-    libcamalgo.asd \
-    libcamalgo.dngop \
-    libcamalgo.eis \
-    libcamalgo.fdft \
-    libcamalgo.flicker \
-    libcamalgo.fsc \
-    libcamalgo.gyro \
-    libcamalgo.ispfeature \
-    libcamalgo.lmv \
-    libcamalgo.lsc \
-    libcamalgo.mfnr \
-    libcamalgo.nr \
-    libcamalgo.utility \
-    libcamalgo.warp \
-    libcamdrv_imem \
-    libcamdrv_isp \
-    libcamdrv_tuning_mgr \
-    libcamdrv_twin \
-    libcameracustom.eis \
-    libcameracustom.plugin \
-    libcameracustom \
     libcharon-ss \
-    libdenoise \
-    libeffecthal.base \
-    libeyedetector \
-    libfacedetector \
-    libfacesattribute \
-    libfeature.face \
-    libfeature.stereo.provider \
-    libfeature_3dnr \
-    libfeature_eis \
-    libfeature_fsc \
-    libfeature_lmv \
-    libfeature_rss \
-    libfeatureiodrv_mem \
-    libfft_vendor \
     libforkexecwrap \
     libhydra \
-    libifcutils_mtk \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
@@ -799,121 +602,24 @@ PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
     libkmsetkey \
     libksensor \
-    liblpcnr \
-    libmfllcore \
-    libmpbase \
     libmsnr \
     libmtk-ril \
-    libmtkcam.eventcallback \
-    libmtkcam.featurepipe.capture \
-    libmtkcam.featurepipe.streaming \
-    libmtkcam.featurepipe.vsdof_util \
-    libmtkcam.logicalmodule \
-    libmtkcam_3rdparty.core \
-    libmtkcam_3rdparty.customer \
-    libmtkcam_3rdparty.mtk \
-    libmtkcam_3rdparty \
-    libmtkcam_calibration_convertor \
-    libmtkcam_calibration_provider \
-    libmtkcam_debugutils \
-    libmtkcam_device3_app \
-    libmtkcam_device3_hal \
-    libmtkcam_device3_hidl \
-    libmtkcam_device3_hidlutils \
-    libmtkcam_device3_utils \
-    libmtkcam_devicesessionpolicy \
-    libmtkcam_diputils \
-    libmtkcam_exif \
-    libmtkcam_fdvt \
-    libmtkcam_featurepolicy \
-    libmtkcam_featureutils \
-    libmtkcam_fwkutils \
-    libmtkcam_grallocutils \
-    libmtkcam_hwnode \
-    libmtkcam_hwutils \
-    libmtkcam_imem \
-    libmtkcam_imgbuf \
-    libmtkcam_metadata \
-    libmtkcam_metastore \
-    libmtkcam_modulefactory_aaa \
-    libmtkcam_modulefactory_custom \
-    libmtkcam_modulefactory_drv \
-    libmtkcam_modulefactory_utils \
-    libmtkcam_modulehelper \
-    libmtkcam_pipeline \
-    libmtkcam_pipeline_fbm \
-    libmtkcam_pipelinemodel \
-    libmtkcam_pipelinemodel_adapter \
-    libmtkcam_pipelinemodel_capture \
-    libmtkcam_pipelinemodel_isp \
-    libmtkcam_pipelinemodel_session \
-    libmtkcam_pipelinemodel_utils \
-    libmtkcam_pipelinemodel_zsl \
-    libmtkcam_pipelinepolicy-security \
-    libmtkcam_pipelinepolicy-smvr \
-    libmtkcam_pipelinepolicy \
-    libmtkcam_pipelinepolicy_factory \
-    libmtkcam_prerelease \
-    libmtkcam_rsc \
-    libmtkcam_scenariorecorder \
-    libmtkcam_stdutils \
-    libmtkcam_streamutils \
-    libmtkcam_synchelper \
-    libmtkcam_sysutils \
-    libmtkcam_tuning_utils \
-    libmtkcam_ulog \
     libmtkconfig \
     libmtkconfigutils \
-    libmtkisp_metadata \
     libmtkrilutils \
     libmtktinyxml \
     libmtkutils \
-    libportrait_repair_ocl \
     libratconfig \
-    libremosaic_wrapper \
-    libremosaiclib \
     librilfusion \
-    librmsclib1 \
     libsdk_sr \
-    libsegmention \
-    libsegmentionPre \
     libsensor_custom \
     libsimaka \
-    libst_mobile \
     libst_sr_models \
-    libstblur_capture_api \
     libstereoinfoaccessor_vsdof \
     libstrongswan \
-    libtf_asd_lib \
-    libtflite_native_gainference \
-    libtflite_native_inference \
-    libtflite_native_seginference \
-    libtranssion_beauty \
-    libtranssion_bodybeauty \
-    libtranssion_cal \
-    libundistort_64 \
-    libwa_dof \
-    libwa_rtdof \
     libwifi-hal-mtk \
     libwifitest \
-    libmtkcam_streaminfo_plugin-p1stt \
-    ov02b1b_mipi_raw_IdxMgr \
-    pblcgc02m1b_mipi_raw_IdxMgr \
-    pblcgc08a3_mipi_raw_IdxMgr \
-    pblcgc6153_serial_yuv_IdxMgr \
-    pblcgc8034_mipi_raw_IdxMgr \
-    pblcov02b1b_mipi_raw_IdxMgr \
-    pblcs5kjn1_mipi_raw_IdxMgr \
-    pblcs5kjn1ext2_mipi_raw_IdxMgr \
-    s5kjn1_mipi_raw_IdxMgr \
-    s5kjn1ext2_mipi_raw_IdxMgr \
     vendor.mediatek.hardware.atci@1.0 \
-    vendor.mediatek.hardware.camera.atms@1.0 \
-    vendor.mediatek.hardware.camera.frhandler@1.0 \
-    vendor.mediatek.hardware.camera.isphal@1.0 \
-    vendor.mediatek.hardware.camera.lomoeffect@1.0 \
-    vendor.mediatek.hardware.camera.postproc@1.0 \
-    vendor.mediatek.hardware.camera.security@1.0 \
     vendor.mediatek.hardware.engineermode@1.0 \
     vendor.mediatek.hardware.engineermode@1.1 \
     vendor.mediatek.hardware.engineermode@1.2 \
@@ -963,7 +669,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service-mediatek \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.wifi@1.0-service-lazy \
-    camerahalserver \
     mtkfusionrild \
     vendor.mediatek.hardware.dfps@1.0-service \
     vendor.mediatek.hardware.gpu@1.0-service \
@@ -976,20 +681,6 @@ PRODUCT_PACKAGES += \
     vtservice_hidl \
     ipsec_mon \
     lbs_hidl_service \
-    lib3a.ccu.dm \
-    lib3a.ccu.pm \
-    libccu_gc02m1b_mipi_raw.dm \
-    libccu_gc02m1b_mipi_raw.pm \
-    libccu_gc08a3_mipi_raw.dm \
-    libccu_gc08a3_mipi_raw.pm \
-    libccu_gc8034_mipi_raw.dm \
-    libccu_gc8034_mipi_raw.pm \
-    libccu_ov02b1b_mipi_raw.dm \
-    libccu_ov02b1b_mipi_raw.pm \
-    libccu_s5kjn1_mipi_raw.dm \
-    libccu_s5kjn1_mipi_raw.pm \
-    libccu_s5kjn1ext2_mipi_raw.dm \
-    libccu_s5kjn1ext2_mipi_raw.pm \
     md_monitor \
     md_monitor_ctrl \
     mnld \
