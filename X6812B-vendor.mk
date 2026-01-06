@@ -871,6 +871,7 @@ PRODUCT_PACKAGES += \
     libmtktinyxml \
     libmtkutils \
     libportrait_repair_ocl \
+    libpowerhalwrap_vendor \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
