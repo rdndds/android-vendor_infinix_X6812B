@@ -570,6 +570,7 @@ PRODUCT_PACKAGES += \
     libnvram_platform \
     libnvram_sec \
     libpixelflinger \
+    libpowerhalwrap_vendor \
     libpq_cust_base \
     libpq_prot \
     libsl_fp_impl \
@@ -871,7 +872,6 @@ PRODUCT_PACKAGES += \
     libmtktinyxml \
     libmtkutils \
     libportrait_repair_ocl \
-    libpowerhalwrap_vendor \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
