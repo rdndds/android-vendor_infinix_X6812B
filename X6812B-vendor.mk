@@ -333,7 +333,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
-    vendor/infinix/X6812B/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/infinix/X6812B/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -589,7 +588,6 @@ PRODUCT_PACKAGES += \
     libvcodec_oal \
     libverno \
     libwo \
-    libwpa_client \
     libwvhidl \
     libwvdrmengine \
     ov02b1b_mipi_raw_tuning \
@@ -800,8 +798,6 @@ PRODUCT_PACKAGES += \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
     libkmsetkey \
     libksensor \
     liblpcnr \
@@ -944,7 +940,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
-    android.hardware.wifi@1.0-service.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.mediatek.hardware.gpu@1.0-service.xml \
     atcid \
@@ -969,7 +964,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.sensors@2.0-service-mediatek \
     android.hardware.thermal@2.0-service.mtk \
-    android.hardware.wifi@1.0-service-lazy \
     camerahalserver \
     mtkfusionrild \
     vendor.mediatek.hardware.dfps@1.0-service \
