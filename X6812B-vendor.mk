@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/infinix/X6812B
 
 PRODUCT_COPY_FILES += \
+    vendor/infinix/X6812B/proprietary/MODULE_SUFFIX=-vendorcompat:$(TARGET_COPY_OUT_MODULE_SUFFIX=-VENDORCOMPAT) \
     vendor/infinix/X6812B/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020b0000000000000000000000000000.drbin \
     vendor/infinix/X6812B/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020b0000000000000000000000000000.tlbin \
     vendor/infinix/X6812B/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
