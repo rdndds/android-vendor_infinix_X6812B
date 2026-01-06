@@ -4408,6 +4408,49 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmtklimiter_vendor",
+    owner: "infinix",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmtklimiter_vendor.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtk_drvb",
+                "libutils",
+                "libm",
+                "libc++",
+                "libc",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmtklimiter_vendor.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtk_drvb",
+                "libutils",
+                "libm",
+                "libc++",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmtknetutils",
     owner: "infinix",
     strip: {
@@ -4511,6 +4554,49 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libc",
                 "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkshifter_vendor",
+    owner: "infinix",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmtkshifter_vendor.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtk_drvb",
+                "libutils",
+                "libm",
+                "libc++",
+                "libc",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmtkshifter_vendor.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtk_drvb",
+                "libutils",
+                "libm",
+                "libc++",
+                "libc",
                 "libdl",
             ],
         },

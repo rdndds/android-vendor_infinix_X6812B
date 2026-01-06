@@ -481,9 +481,11 @@ PRODUCT_PACKAGES += \
     libmtkares \
     libmtkcutils \
     libmtkhardware_legacy \
+    libmtklimiter_vendor \
     libmtknetutils \
     libmtkproperty \
     libmtkrillog \
+    libmtkshifter_vendor \
     libmtksysutils \
     libnvram \
     libnvram_daemon_callback \
