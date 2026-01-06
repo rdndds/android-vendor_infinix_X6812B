@@ -5693,47 +5693,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libtranlog",
-    owner: "infinix",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libtranlog.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libtranlog.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libudf",
     owner: "infinix",
     strip: {
@@ -18618,48 +18577,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "mnld",
-    owner: "infinix",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/mnld",
-            ],
-            shared_libs: [
-                "libmnl",
-                "libcurl",
-                "libcutils",
-                "libnvram",
-                "libcrypto",
-                "libssl",
-                "libz",
-                "liblog",
-                "libhardware",
-                "libladder",
-                "libtranlog",
-                "libDR",
-                "libutils",
-                "android.frameworks.sensorservice@1.0",
-                "android.hardware.sensors@1.0",
-                "libhidlbase",
-                "libhidltransport",
-                "android.hardware.sensors@1.0-convert-shared",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
     strip: {
         none: true,
     },

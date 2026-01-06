@@ -581,7 +581,6 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libsysenv \
     libthha \
-    libtranlog \
     libudf \
     libutinterface_custom_md \
     libutinterface_md \
@@ -993,7 +992,6 @@ PRODUCT_PACKAGES += \
     libccu_s5kjn1ext2_mipi_raw.pm \
     md_monitor \
     md_monitor_ctrl \
-    mnld \
     mtk_agpsd \
     muxreport \
     netdagent \
