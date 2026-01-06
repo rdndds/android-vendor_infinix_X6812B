@@ -477,6 +477,7 @@ PRODUCT_PACKAGES += \
     libladder \
     libminiui \
     libmsbc_mtk \
+    libmtk_drvb \
     libmtkares \
     libmtkcutils \
     libmtkhardware_legacy \
