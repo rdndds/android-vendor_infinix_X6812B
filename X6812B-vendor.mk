@@ -581,6 +581,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libsysenv \
     libthha \
+    libtranlog \
     libudf \
     libutinterface_custom_md \
     libutinterface_md \
