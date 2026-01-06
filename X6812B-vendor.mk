@@ -589,7 +589,6 @@ PRODUCT_PACKAGES += \
     libwo \
     libwpa_client \
     libwvhidl \
-    libwvdrmengine \
     ov02b1b_mipi_raw_tuning \
     pblcgc02m1b_mipi_raw_tuning \
     pblcgc08a3_mipi_raw_tuning \
